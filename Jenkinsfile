@@ -1,5 +1,5 @@
 node{
-  stage('Checkou code from git'){
+  stage('Checkout code from git'){
     git 'https://github.com/NIraj5aug/jenkins-git-integration-new'
     }
   stage('complile package'){
